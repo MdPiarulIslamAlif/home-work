@@ -45,9 +45,13 @@
       color: #ddd; 
 }
 .nav .nav-bar ul li a:hover{
-      background-color: rgba(29, 48, 61, 0.281);
-      color: lightskyblue;
+      background-color: rgba(38, 64, 82, 0.603);
+      color:  rgb(48, 176, 255);
       border-radius: 5px;
+}
+.active{
+      color: rgb(48, 176, 255) !important;
+      
 }
  
 /* header section end here */
@@ -67,6 +71,7 @@
 }
 .banner-img{
       height: 300px;
+
 }
  .title{
       font-size: 55px;
@@ -103,6 +108,7 @@
       justify-content: space-around;
       align-items: center;
       padding: 10px;
+      margin-bottom:50px ;
 }
 .About-title{
       text-align: center;
