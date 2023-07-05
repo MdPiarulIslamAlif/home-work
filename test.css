@@ -134,5 +134,115 @@
       color: rgba(0, 0, 0, 0.842);
 }
 
-/* about section end form the here */
+/* about section end form the here 
+88888888888888888888888888888888888888888888888888888888888888*/
+
+/* our service start here */
+.our-container{
+      background-image: url(img/background.png),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+}
+.our-container .our-servic{
+      margin: 0;
+      padding-top: 50px;
+      text-align: center;
+      font-size: 50px;
+      color: #ddd;
+
+}
+.box-container{
+      height: 500px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items:center; 
+
+
+}
+.box-container .box{
+      width: 200px;
+      height: 300px;
+      border-radius: 10px;
+      text-align: center;
+      color: #ddd;
+      padding: 10px;
+      background-color: #000;
+      box-shadow: 10px 10px 60px 20px  rgba(170, 166, 166, 0.473);
+}
+.box-container .box .digital{
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.box-container .box .lorem-text{
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 20px;
+
+}
+.box-container .box .icon{
+      width: 70px;
+}
+.btn-d{
+      background-color: #dddddd56;
+      text-decoration: none;
+      text-transform: capitalize;
+      padding: 10px 15px;
+      border-radius: 5px;
+      color: #ddd;
+}
+.btn-d:hover{
+      background-color: #faba32;
+      color: white;
+}
+/* our service end here 
+8888888888888888888888888888888888888888888888888888888888888888*/
+
+/* footer section start here */
+.footer{
+      padding-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #000000;
+      color: #ddd;
+}
+.footer .box1{
+      width: 300px;
+      padding-bottom: 100px;
+
+}
+.footer .box1 .geekfolio{
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 15px;    
+}
+.footer .box1 .auctor{
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+
+}
+
+.footer .box2{
+      width: 250px;
+      padding-bottom: 100px;
+
+}
+
+.footer .box2 .head-titel{
+      font-size: 15px;
+      line-height: 50px;
+      padding-bottom: 10px;
+      text-align: left;
+
+}
+.footer .box2 li{
+      list-style: none;
+}
+
+/* footer section end here */
+
+
 
