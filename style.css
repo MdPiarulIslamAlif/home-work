@@ -199,12 +199,13 @@
 
 /* footer section start here */
 .footer{
-      padding-top: 100px;
+      position: relative;
+      padding-top: 150px;
       display: flex;
       justify-content: space-around;
       align-items: center;
       background-color: #000000;
-      color: #ddd;
+      color: #ddd;1
 }
 .footer .box1{
       width: 300px;
@@ -241,8 +242,24 @@
 .footer .box2 li{
       list-style: none;
 }
+/* footer section end here 
+888888888888888888888888888888888888888888888888888888888888888888*/
 
-/* footer section end here */
+/* copy right start here  */
+
+ .copy-right{
+      background-color: #000;
+      color: #ddd;
+      text-align: center;
+      font-size: 12px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+
+}
+/* copy right end here */
+
+
+
 
 
 
